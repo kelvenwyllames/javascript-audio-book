@@ -4,8 +4,28 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Áudio Book</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        />
     </head>
     <body>
+        <div id="container-application">
+            <img src="assets/dom-casmurro.jpeg" alt="" />
+            <div id="container-information">
+                <p id="chapter">Capitulo</p>
+                <p id="author">Machado de Assis</p>
+            </div>
+            <div id="container-buttons">
+                <button
+                    id="come-back"
+                    class="bi bi-skip-backward-fill"
+                ></button>
+                <button id="play-pause" class="bi bi-play-circle-fill"></button>
+                <button id="advance" class="bi bi-skip-forward-fill"></button>
+            </div>
+        </div>
         <script src="/js/main.js"></script>
     </body>
 </html>
