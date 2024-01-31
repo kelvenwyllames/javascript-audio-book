@@ -14,6 +14,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(15px);
 }
 
 #container-application {
@@ -27,9 +31,11 @@ body {
     color: #bfe0e2;
     background: linear-gradient(
         40deg,
-        rgba(59, 117, 127, 1) 0%,
-        rgba(50, 81, 88, 1) 100%
+        rgba(59, 117, 127, 0.9) 0%,
+        rgba(50, 81, 88, 0.9) 100%
     );
+    backdrop-filter: blur(15px);
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.233);
 }
 
 img {
@@ -51,12 +57,13 @@ img {
 
 #container-buttons > button {
     color: #ddeff0;
-    background: none;
     border: none;
+    background: none;
+    cursor: pointer;
 }
 
 #container-buttons > #come-back,
-#advance {
+#next {
     font-size: 2rem;
 }
 

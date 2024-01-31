@@ -10,20 +10,25 @@
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
         />
     </head>
-    <body>
+    <body
+        style="
+            background-image: url(https://images.pexels.com/photos/4498792/pexels-photo-4498792.jpeg?auto=compress&cs=tinysrgb&w=600);
+        "
+    >
         <div id="container-application">
             <img src="assets/dom-casmurro.jpeg" alt="" />
             <div id="container-information">
                 <p id="chapter">Capitulo</p>
                 <p id="author">Machado de Assis</p>
             </div>
+            <audio id="audio-chapter" src="assets/1.mp3"></audio>
             <div id="container-buttons">
                 <button
                     id="come-back"
                     class="bi bi-skip-backward-fill"
                 ></button>
                 <button id="play-pause" class="bi bi-play-circle-fill"></button>
-                <button id="advance" class="bi bi-skip-forward-fill"></button>
+                <button id="next" class="bi bi-skip-forward-fill"></button>
             </div>
         </div>
         <script src="/js/main.js"></script>
