@@ -17,7 +17,7 @@ assets/ - Pasta contendo os arquivos de áudio dos capítulos e imagem.<br/>
 
 # :tv: Demonstração
 
-![Demonstração](demonstra%C3%A7%C3%A3o.png)
+![demonstração](https://github.com/kelvenwyllames/javascript-audio-book/assets/129474131/f8ac9789-05b8-473c-91cf-df7533c5f185)
 
 # 🧑‍💻 Tecnologias e Ferramentas
 
